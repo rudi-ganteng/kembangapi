@@ -3,7 +3,7 @@ let particles, canvas, ctx, w, h;
 let current = -1;
 
 let duration = 5000;
-let str = ['SELAMAT', 'HARIRAYA', 'EID' , 'FITRI'];
+let str = ['FUFU', 'FAFA', 'FAFA' , 'FAFA'];
 
 init();
 resize();
@@ -100,4 +100,5 @@ function circle(x,y,r) {
   ctx.beginPath();
   ctx.ellipse(x, y, r, r, 0, 0, 6.283);
   ctx.fill();
+
 }
