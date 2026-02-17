@@ -3,7 +3,7 @@ let particles, canvas, ctx, w, h;
 let current = -1;
 
 let duration = 5000;
-let str = ['FUFU', 'FAFA', 'FAFA' , 'FAFA'];
+let str = ['FUFUFAFA', 'FUFUFAFAF', 'FUFUFAFA' , 'FUFUFAFA'];
 
 init();
 resize();
@@ -102,3 +102,4 @@ function circle(x,y,r) {
   ctx.fill();
 
 }
+
